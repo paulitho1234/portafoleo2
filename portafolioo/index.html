@@ -1,0 +1,156 @@
+  <!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bryan Ulcuango</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css"> <!--enlace con el estilo-->
+  </head>
+  <body >
+    <header class="header"> <!--da estilo a la pagina-->
+      <div class="container">
+        <figure class="logo">
+          <img src="images/icono.png" height="50" alt="Logo de http://santiagosolis.com" />
+        </figure>
+        <nav class="menu">
+          <ol>
+            <li>
+              <a class="link" href="#portafolio">Portafolio</a>
+            </li>
+            <li>
+              <a class="link" href="#eventos">Experiencia</a>
+            </li>
+            <li>
+              <a class="link" href="#contacto">Trabajemos juntos</a>
+            </li>
+            <li>
+              <a class="link" href="file:///C:/Users/Core%20i3/Desktop/portafolio2/portafolioo/calculadora/index.html">Calculadora</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h1>
+          Hola! Soy <strong>Bryan Ulcuango</strong> <br/> Desarrollador  <strong>Javascript</strong> con <br> pasión por la <strong>enseñanza</strong>
+        </h1>
+         
+        <img class="hero-image" src="images/paulitho.jpg" width="250" height="300" alt="imagen principal del sitio"> 
+      </div>
+    </section>
+
+    <section id="portafolio" class="portfolio">
+      <div class="container">
+        <h2>Portafolio (Proyectos Destacados)</h2>
+      <article class="project">
+        <div class="project-details">
+          <h3 class="project-title"> Desarrollista de software</h3>
+          <h6 class="project-course">Definiciones</h6>
+          <p class="project-date"><small><strong>Fecha:</strong> 24/06/2019</small></p>
+          <p class="project-url"><small><strong>Lo puedes encontrar en:</strong> https://www.facebook.com/intsuperior</small></p>
+          <p class="project-description">La función del desarrollador de software recae en un programador o una
+             compañía comercial que se dedica a uno o más aspectos del proceso de desarrollo de software.
+              Se trata de un ámbito más amplio de la programación algorítmica.
+          </p>
+        </div>
+        <figure class="project-imageContainer">
+          <img class="project-image" width="400" src="images/soft.jpg" alt="prouyecto del curso de React Native">
+        </figure>
+      </article>
+      <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">Platzi cursos 2018</h3>
+            <h6 class="project-course">TECNOLOGIAS INFORMATICAS</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+            <p class="project-url"><small><strong>Referencias: </strong>www.tecnologia-informatica.com</small></p>
+            <p class="project-description">Indudablemente, la informática desde hace un largo tiempo ha venido
+               ocupando e introduciéndose en cada aspecto de nuestra vida, tanto en el hogar como en el ámbito laboral.  En este último,
+               es absolutamente imposible pensar en desarrollar una tarea sin que haya una computadora cerca, en cualquiera de sus formas.</p>
+          </div>
+          <figure class="project-imageContainer">
+            <img class="project-image" width="400" src="images/programas.png" alt="prouyecto del curso de React Native">
+          </figure>
+        </article>
+      </div>
+    </section>
+    <div class="container">
+      <h2 class="event-list-title">Más sobre mi experiencia</h2>
+    </div>
+
+    <section id="eventos" class="event-list">
+      <div class="container">
+        <article class="event">
+          <figure class="event-imageContainer">
+            <img class="event-image" src="images/gira.jpg" width="500" />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">Gira Universitaria (ESPED)</h3>
+            <p class="event-description">Visita a la ESPED cede en Latacunga, exposicion de los proyectos a la implementacion de 
+              aplicaciones moviles,paginas web, programacion de juegos en 3D.
+            </p>
+            <a class="event-url" href="https://www.youtube.com/watch?v=FH6b6nK_DOg" target="_blank">La ESPED</a> <!-- target abrir otra pagina-->
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-imageContainer">
+            
+          </figure>
+          <div class="event-detail">
+           
+        <article class="event">
+          <figure class="event-imageContainer">
+           
+            
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">Evento la Novatada</h3>
+            <p class="event-description">El evento de todo los años que se realiza cada semestre de las cuales se escoje a la reina INT</p>
+            <a class="event-url" href="https://www.youtube.com/watch?v=CDpvSU9g2PU" target="_blank">Novatada 2017</a>
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-imageContainer">
+            
+            <img class="event-image" src="images/vin2.jpg" width="500" />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">Proyectos </h3>
+            <p class="event-description">Cumplimiento de la vinculacion con la comunidad para la obtencion de la nota respectiva,requisito para la graduacion</p>
+            <a class="event-url" href="https://www.youtube.com/watch?v=EZXYJtMsgf8" target="_blank">Vinculacion</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact">
+      <div class="container">
+        <form action="/suscripcion/" class="form-email">
+          <h3>¿Creamos algo juntos?</h3>
+          <input type="text" placeholder="Déjame tu email" id="email">
+          <button>Enviar</button>
+        </form>
+        <div class="social">
+          <a href="https://www.facebook.com/brian.paul" class="social-link facebook"></a>
+          <a href="https://github.com/campues" class="social-link github"></a>
+          
+        </div>
+      </div>
+    </section>
+      
+    <footer class="footer">
+      <div class="container">
+        <div>
+         <p>Desarrollador de Software a tu servicio<img src="fef" width="100" alt="platzi">root</p>
+        </div>
+        <div>
+          <p>
+            Designed with by: <a href="https://www.facebook.com/bryan.paul">Bryan Paul</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
